@@ -6,7 +6,7 @@ resized_image = rescaleFrame(image,scale=0.25)
 
 cv.imshow("Red Deer",resized_image)
 
-blur = cv.GaussianBlur(resized_image,(11,11),cv.BORDER_DEFAULT)
-cv.imshow("Blur",blur)
+flip = cv.flip(resized_image,-1)
+cv.imshow("Flipped",flip)
 
 cv.waitKey(0)

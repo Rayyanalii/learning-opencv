@@ -1,5 +1,5 @@
 import cv2 as cv
-from rescaleMethod import rescaleFrame
+from utils import rescaleFrame
 
 capture = cv.VideoCapture("Assets/Videos/person_walking.mp4")
 
